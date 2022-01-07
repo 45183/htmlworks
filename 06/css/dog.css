@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Pen+Script&display=swap');
+/* 구글 폰트에서 폰트 선택 후 @import 부분 */
+/* 맨 위에 넣어야함 */
+*{margin: 0px; padding: 0px;}
+/* 전체 선택자 : 마진과 패딩을 0으로 세팅 */
+/* 대부분의 경우 먼저 적용하고 시작 */
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header 스타일 */
+header{
+    height: 80px;
+    background-color: rgb(53, 83, 53);
+
+}
+header #logo{
+    width: 200px;
+    padding: 15px 20px;
+    float: left;
+}
+header #logo h1{
+    color: white;
+    font-family: 'merienda', cursive;
+}
+header #logo h1:hover{
+    color: #2fd2fd
+}
+header nav{
+    /* width 쓸 경우 padding 계산 */
+    /* height: 80px; (header에 넣음) */
+    width: 700px;
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+/* ul에서 불릿스타일, text-align 주로 함 */
+header nav ul li{
+    display: inline-block;
+    margin: 20px 15px;
+    padding: 10px;
+}
+/* li에서 display 주로 함 */
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #2fd2fd
+}
+
+/* section 스타일 */
+section{
+    margin: 20px;
+}
+section h2{
+    font-family: 'nanum pen script', cursive;
+    font-size: 3em;
+}
+/* cursive : 없을 경우 대체 */
+
+
+/* font-family로 c드라이브/windows/fonts에 있는 글씨체 사용가능 */

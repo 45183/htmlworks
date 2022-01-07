@@ -1,0 +1,27 @@
+div{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+.bg1{
+    background: url(../images/bg5.jpg) no-repeat;
+    background-size: auto;
+}
+.bg2{
+    background: url(../images/bg5.jpg) no-repeat top left;
+    background-size: 200px;
+}
+.bg3{
+    background: url(../images/bg5.jpg) no-repeat top right;
+    background-size: 60%;
+}
+.bg4{
+    background: url(../images/bg5.jpg) no-repeat top left;
+    background-size: contain;
+}
+.bg5{
+    background: url(../images/bg5.jpg) no-repeat top left;
+    background-size: cover;
+}

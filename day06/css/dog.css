@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Pen+Script&display=swap'); 
+*{margin: 0px; padding: 0px;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 80px;
+    background-color: rgb(53, 83, 53);
+}
+header #logo{
+    width: 200px;
+    padding: 15px 20px;
+    float: left;
+}
+header #logo h1{
+    font-family: 'merienda', cursive;
+    color: white;
+}
+header #logo h1:hover{
+    color: #2fd2fd
+}
+header nav{
+    width: 700px;
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 20px 15px;
+    padding: 10px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #2fd2fd
+}
+section{
+    margin: 20px;
+}
+section h2{
+    font-family: 'nanum pen script', cursive;
+    font-size: 3em;
+}
