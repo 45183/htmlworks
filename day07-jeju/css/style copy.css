@@ -22,6 +22,10 @@ header #topMenu li a:hover{color: #2fd2fd;}
 #contents #healing img{float: left; margin-right: 15px; border-radius: 10px;}
 #contents #activity{height: 300px;}
 #contents #activity img{float: left; margin-right: 15px; border-radius: 10px;}
+#contents #sightseeing{height: 300px;}
+#contents #sightseeing ul li{margin: 10px 20px; list-style: square;}
+#contents #sightseeing ul li a{text-decoration: none; color: #000;}
+#contents #sightseeing ul li a:hover{text-decoration: underline;}
 
 /* product 스타일 */
 #product{width: 900px; margin: 10px auto;}
