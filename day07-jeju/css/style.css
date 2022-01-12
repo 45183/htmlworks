@@ -184,6 +184,8 @@ footer #bottomMenu li{
     border-right: 1px solid #ccc;
     padding: 0px 10px;
 }
+footer #bottomMenu li:last-child{border:none}
+/* 사이트맵 오른쪽에 선 지우기 */
 footer #bottomMenu li a{
     text-decoration: none;
     color: #444;

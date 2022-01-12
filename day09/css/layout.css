@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing : content-box는 기본값으로 생략 가능 */
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#container h1{
+    font-size: 2em;
+    /* 넣지 않을 경우 각 영역의 크기별 h1 크기 변화 */
+    /* em : 상대크기, rem : 16px 고정*/
+}
+header{
+    /* width: 1000px; */
+    width: 100%;
+    /* %의 경우 브라우저 크기에 따라감 */
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+section{
+    /* width: 656px; */
+    width: 65%;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+}
+aside{
+    /* width: 300px; */
+    width: 35%;
+    height: 600px;
+    border: 1px solid #ccc;
+    background-color: #bbb;
+    padding: 10px;
+    float: right;
+}
+footer{
+    /* width: 1000px; */
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    clear: both;
+}
