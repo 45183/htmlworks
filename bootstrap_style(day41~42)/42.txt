@@ -1,0 +1,15 @@
+함수형 뷰 방식 - FBV(Function Based View) : def 함수명
+클래스형 뷰 방식 - CBV(Class Based View) : 클래스 제공됨
+회원관리 - 클래스형 + 함수형
+
+
+장고의 회원 관리
+common 앱 생성
+python manage.py startapp common
+
+
+표준 html 기본 파일 - base.html
+확장 사용 - {% extends 'base.html' %}
+
+
+자바스크립트 - 웹에 최적화한 라이브러리 -> 제이쿼리(jQuery)
